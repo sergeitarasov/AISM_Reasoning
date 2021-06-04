@@ -18,7 +18,7 @@ robot merge --input data/aism-edit.owx \
  --output data/aism-merged.owx
 ```
 
-5. add individuals describing "cercus structure" using `make_individuals.R`.
+5. A dd individuals describing "cercus structure" using `make_individuals.R`.
 
 ```{bash}
 Rscript make_individuals.R
