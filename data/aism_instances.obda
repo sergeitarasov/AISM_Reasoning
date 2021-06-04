@@ -1,0 +1,20 @@
+[PrefixDeclaration]
+:		http://purl.obolibrary.org/obo/aism.owl/
+obo:		http://purl.obolibrary.org/obo/
+owl:		http://www.w3.org/2002/07/owl#
+rdf:		http://www.w3.org/1999/02/22-rdf-syntax-ns#
+xml:		http://www.w3.org/XML/1998/namespace
+xsd:		http://www.w3.org/2001/XMLSchema#
+core:		http://purl.obolibrary.org/obo/core#
+ncbi:		http://purl.obolibrary.org/obo/ncbitaxon#
+oboI:		http://www.geneontology.org/formats/oboInOwl#
+rdfs:		http://www.w3.org/2000/01/rdf-schema#
+swrl:		http://swrl.stanford.edu/ontologies/3.3/swrla.owl#
+term:		http://purl.org/dc/terms/
+term2:		http://rs.tdwg.org/dwc/terms/
+x_0.1:		http://xmlns.com/foaf/0.1/
+x_1.1:		http://purl.org/dc/elements/1.1/
+
+[MappingDeclaration] @collection [[
+]]
+

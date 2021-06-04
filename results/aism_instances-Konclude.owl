@@ -1,0 +1,2245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ontology xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2002/07/owl#" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000124"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000124"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000124"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000124"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000078"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000124"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000124"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000124"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000124"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000124"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000228"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000225"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000225"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000228"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000228"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000228"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000228"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000228"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000228"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000228"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000228"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000428"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000428"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000428"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000428"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000428"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000428"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000428"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000428"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000428"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000121"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000121"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000121"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000121"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000121"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000121"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000121"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000121"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000121"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000410"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000409"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000409"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000410"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000410"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000410"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000410"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000410"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000410"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000410"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000410"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000423"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000423"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000423"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000423"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000423"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000423"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000423"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000423"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000423"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000120"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000120"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000120"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000120"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000120"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000120"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000120"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000120"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000120"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000103"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000225"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000103"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000103"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000103"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000103"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000103"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000103"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000103"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000103"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000421"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000409"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000421"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000421"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000421"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000421"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000421"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000421"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000421"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000421"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000420"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000409"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000420"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000420"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000420"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000420"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000420"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000420"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000420"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000420"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000227"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000225"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000227"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000227"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000227"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000227"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000227"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000227"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000227"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000227"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000226"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000225"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000226"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000226"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000226"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000226"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000226"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000226"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000226"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000226"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000229"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000225"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000229"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000229"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000229"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000229"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000229"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000229"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000229"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000229"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000002"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/IAO_0000002"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_tergite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_tergite"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_tergite"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0004057"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0004057"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_tergite"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0004118"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0004118"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_tergite"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_tergite"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000003"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000003"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_tergite"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_tergite"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000174"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_tergite"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_6007284"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_6007284"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_tergite"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_tergite"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_tergite"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_tergite"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_tergite"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_tergite"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_tergite"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0004057"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0004118"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000003"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_6007284"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_tergite"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Archaeognatha"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Archaeognatha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Archaeognatha"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://rs.tdwg.org/dwc/terms/Organism"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://rs.tdwg.org/dwc/terms/Organism"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Archaeognatha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Archaeognatha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Archaeognatha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Archaeognatha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Archaeognatha"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Psocidae"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Psocidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Psocidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://rs.tdwg.org/dwc/terms/Organism"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Psocidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Psocidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Psocidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Psocidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Psocidae"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Aphididae"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Aphididae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Aphididae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://rs.tdwg.org/dwc/terms/Organism"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Aphididae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Aphididae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Aphididae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Aphididae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Aphididae"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_tergite"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0004057"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0004118"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000003"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_6007284"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_tergite"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Carabidae"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Carabidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Carabidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://rs.tdwg.org/dwc/terms/Organism"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Carabidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Carabidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Carabidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Carabidae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Carabidae"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_tergite"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0004057"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0004118"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000003"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_6007284"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_tergite"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_tergite"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0004057"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0004118"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000003"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_6007284"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_tergite"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_sclerite_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000027"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000027"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000003"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_sclerite_1"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000522"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000522"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_sclerite_1"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000008"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000008"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_6007284"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_sclerite_1"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000128"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000128"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_sclerite_1"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000029"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000029"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_sclerite_1"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000027"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000003"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000522"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000008"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_6007284"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0004165"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0004165"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000128"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000029"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_descriptor"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_descriptor"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000003"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000522"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000008"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_6007284"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0004165"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_descriptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_descriptor"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_4"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000003"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_6007284"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_4"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_3"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000003"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_6007284"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_3"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_2"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000003"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_6007284"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_2"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_1"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000003"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_6007284"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Zygentoma_sclerite_1"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_sclerite_1"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000003"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000522"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000008"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_6007284"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0004165"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Carabidae_sclerite_1"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_3"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000003"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_6007284"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_3"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_2"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000003"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_6007284"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_2"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_1"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000003"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_6007284"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Archaeognatha_sclerite_1"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_sclerite_1"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000003"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000522"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_6007284"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_sclerite_1"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000530"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000530"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_sclerite_1"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0034925"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0034925"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0004165"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Psocidae_sclerite_1"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000027"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000003"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000522"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000008"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_6007284"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0004165"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000128"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000029"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Dermaptera_sclerite_1"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Dermaptera"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Dermaptera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Dermaptera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://rs.tdwg.org/dwc/terms/Organism"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Dermaptera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Dermaptera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Dermaptera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Dermaptera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Dermaptera"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_tergite"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0004121"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0004057"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000003"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_6007284"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_tergite"/>
+    </ClassAssertion>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0004093"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/AISM_0004093"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0011216"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_tergite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://purl.obolibrary.org/obo/Aphididae_tergite"/>
+    </ClassAssertion>
+    <Declaration>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Zygentoma"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Zygentoma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/2002/07/owl#Thing"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Zygentoma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://rs.tdwg.org/dwc/terms/Organism"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Zygentoma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Zygentoma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Zygentoma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0000000"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Zygentoma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/CARO_0030000"/>
+        <NamedIndividual IRI="http://rs.tdwg.org/dwc/terms/Zygentoma"/>
+    </ClassAssertion>
+</Ontology>
