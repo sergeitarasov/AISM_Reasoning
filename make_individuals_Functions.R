@@ -1,6 +1,9 @@
 # make_instance_seq(n=1, prefix=SPECIES, organism.id=SPECIES, instance.class="AISM_0000029", functional.class=NA,
 #                   instance.name="_sclerite_",  namespace="obo", link="obo.BFO_0000051")
 
+# make_instance_seq(n=4, prefix=SPECIES, organism.id=SPECIES, instance.class="AISM_0000003", functional.class="AISM_0000029",
+#                   instance.name="_sclerite_",  namespace="obo", link="AISM_0000519")
+
 make_instance_seq <- function(n=3, prefix="sp1", instance.name="_sclerite_", instance.class="AISM_0000062", namespace="obo", link="AISM_0000519", organism.id=NA,
                               functional.class="AISM_0000029"){
   
@@ -37,7 +40,8 @@ make_instance_seq <- function(n=3, prefix="sp1", instance.name="_sclerite_", ins
     py_run_string(FCLA, local = FALSE, convert = F)
     
     # add bilateral class
-    bilat <- paste0('obo.', fcla, '.is_a.append(obo.AISM_0000522)' )
+    #bilat <- paste0('obo.', fcla, '.is_a.append(obo.AISM_0000522)' )
+    bilat <- paste0('obo.', fcla, '.is_a.append(obo.PATO_0040024)' )
     py_run_string(bilat, local = FALSE, convert = F)
     
     #nmsp.scl.ids=paste0(namespace, ".", scl.ids)
@@ -56,7 +60,8 @@ make_instance_seq <- function(n=3, prefix="sp1", instance.name="_sclerite_", ins
     }
     
     x1 <- paste0(x1, collapse = ', ')
-    str3 <- paste0('dwc.', prefix, '.BFO_0000051=[', x1, ']' )
+    #str3 <- paste0('dwc.', prefix, '.BFO_0000051=[', x1, ']' )
+    str3 <- paste0('obo.', prefix, '.BFO_0000051=[', x1, ']' )
     py_run_string(str3, local = FALSE, convert = F)
     
   }
@@ -69,7 +74,9 @@ make_base <- function(organism.id='sp1', tergite="AISM_0004117", tergite_scl_lin
   
   tergite.id <- paste0( organism.id, "_tergite" )
   cmd1 <- paste0("obo.", tergite, "('",  tergite.id, "')" ) # set which tergite id
-  cmd2 <- paste0("dwc.", organism.id, ".BFO_0000051.append(obo.", tergite.id, ")") # species has tergite
+  #cmd2 <- paste0("dwc.", organism.id, ".BFO_0000051.append(obo.", tergite.id, ")") # species has tergite
+  cmd2 <- paste0("obo.", organism.id, ".BFO_0000051.append(obo.", tergite.id, ")") # species has tergite
+  
   cmd3 <-paste0("obo.", tergite.id, ".", tergite_scl_link, "=[obo.", organism.id, "_sclerite_1]") # tergite encircles sclerite
   
   # # Create base: tergites etc

@@ -11,7 +11,7 @@ Infeering cercus structure in insects using [Ontology for the Anatomy of the Ins
 robot convert --input data/aism-edit.owl --output data/aism-edit.owx
 ```
 
-4. Merge all imported ontologies into one aims file.
+4. Merge all imported ontologies into one AISM file.
 
 ```{bash}
 robot merge --input data/aism-edit.owx \

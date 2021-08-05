@@ -26,9 +26,11 @@
 # AISM_0000519 #encicles via conjunctiva
 # AISM_0000538 #encicleD via conjunctiva
 # AISM:0000523 # dorsal postabdomen
-# AISM_0000522 # paired
+# AISM_0000522 # paired (obsolete)
 # AISM_0000008 # cuticular protrusion
 # AISM_0000003 #sclerite
+# PATO_0040024 # bilaterally paired
+# OBI_0100026 organism
 #---------------------------------------
 
 # !!! change to your directory here
@@ -54,7 +56,7 @@ BASE="AISM_0004118" # tergite10 but should be 11
 
 # make Organism
 #py_run_string('dwc.Organism("sp1")', local = FALSE, convert = F)
-spec <- paste0('dwc.Organism("', SPECIES, '")')
+spec <- paste0('obo.OBI_0100026("', SPECIES, '")')
 py_run_string(spec, local = FALSE, convert = F)
 
 # make sequence of 4 sclerites that is an appendage
@@ -79,7 +81,7 @@ SPECIES='Carabidae'
 BASE="AISM_0004118" # tergite10 
 
 # make Organism
-spec <- paste0('dwc.Organism("', SPECIES, '")')
+spec <- paste0('obo.OBI_0100026("', SPECIES, '")')
 py_run_string(spec, local = FALSE, convert = F)
 
 # make sequence 
@@ -88,7 +90,7 @@ make_instance_seq(n=1, prefix=SPECIES, organism.id=SPECIES, instance.class="AISM
 
 
 # add 'paired' to Carabidae_sclerite_1
-py_run_string('obo.Carabidae_sclerite_1.is_a.append(obo.AISM_0000522)', local = FALSE, convert = F )
+py_run_string('obo.Carabidae_sclerite_1.is_a.append(obo.PATO_0040024)', local = FALSE, convert = F )
 
 # Make base: tergite to species and the sequence
 make_base(organism.id=SPECIES, tergite=BASE, tergite_scl_link="BFO_0000051")
@@ -102,7 +104,7 @@ SPECIES='Psocidae'
 BASE="AISM_0004118" # tergite10 
 
 # make Organism
-spec <- paste0('dwc.Organism("', SPECIES, '")')
+spec <- paste0('obo.OBI_0100026("', SPECIES, '")')
 py_run_string(spec, local = FALSE, convert = F)
 
 # AISM_0000530 setose
@@ -112,7 +114,7 @@ make_instance_seq(n=1, prefix=SPECIES, organism.id=SPECIES, instance.class="AISM
 
 
 # add 'paired' 
-py_run_string('obo.Psocidae_sclerite_1.is_a.append(obo.AISM_0000522)', local = FALSE, convert = F )
+py_run_string('obo.Psocidae_sclerite_1.is_a.append(obo.PATO_0040024)', local = FALSE, convert = F )
 
 # Make base: tergite to species and the sequence
 make_base(organism.id=SPECIES, tergite=BASE, tergite_scl_link="AISM_0000519")
@@ -125,7 +127,7 @@ SPECIES='Dermaptera'
 BASE="AISM_0004118" # tergite10 should be 11
 
 # make Organism
-spec <- paste0('dwc.Organism("', SPECIES, '")')
+spec <- paste0('obo.OBI_0100026("', SPECIES, '")')
 py_run_string(spec, local = FALSE, convert = F)
 
 # AISM_0000530 setose
@@ -135,7 +137,7 @@ make_instance_seq(n=1, prefix=SPECIES, organism.id=SPECIES, instance.class="AISM
 
 
 # add 'paired' 
-py_run_string('obo.Dermaptera_sclerite_1.is_a.append(obo.AISM_0000522)', local = FALSE, convert = F )
+py_run_string('obo.Dermaptera_sclerite_1.is_a.append(obo.PATO_0040024)', local = FALSE, convert = F )
 
 # Make base: tergite to species and the sequence
 make_base(organism.id=SPECIES, tergite=BASE, tergite_scl_link="AISM_0000519")
@@ -148,7 +150,7 @@ SPECIES='Archaeognatha'
 BASE="AISM_0004118" # tergite10 should be 11
 
 # make Organism
-spec <- paste0('dwc.Organism("', SPECIES, '")')
+spec <- paste0('obo.OBI_0100026("', SPECIES, '")')
 py_run_string(spec, local = FALSE, convert = F)
 
 # AISM_0000530 setose
@@ -158,7 +160,7 @@ make_instance_seq(n=3, prefix=SPECIES, organism.id=SPECIES, instance.class="AISM
 
 
 # add 'paired' 
-#py_run_string('obo.Dermaptera_sclerite_1.is_a.append(obo.AISM_0000522)', local = FALSE, convert = F )
+#py_run_string('obo.Dermaptera_sclerite_1.is_a.append(obo.PATO_0040024)', local = FALSE, convert = F )
 
 # Make base: tergite to species and the sequence
 make_base(organism.id=SPECIES, tergite=BASE, tergite_scl_link="AISM_0000519")
@@ -173,7 +175,7 @@ SPECIES='Aphididae'
 BASE="AISM_0004093" # tergite6
 
 # make Organism
-spec <- paste0('dwc.Organism("', SPECIES, '")')
+spec <- paste0('obo.OBI_0100026("', SPECIES, '")')
 py_run_string(spec, local = FALSE, convert = F)
 
 # AISM_0000530 setose
@@ -183,7 +185,7 @@ make_instance_seq(n=1, prefix=SPECIES, organism.id=SPECIES, instance.class="AISM
 
 
 # add 'paired' 
-py_run_string('obo.Aphididae_sclerite_1.is_a.append(obo.AISM_0000522)', local = FALSE, convert = F )
+py_run_string('obo.Aphididae_sclerite_1.is_a.append(obo.PATO_0040024)', local = FALSE, convert = F )
 
 # Make base: tergite to species and the sequence
 make_base(organism.id=SPECIES, tergite=BASE, tergite_scl_link="AISM_0000519")
